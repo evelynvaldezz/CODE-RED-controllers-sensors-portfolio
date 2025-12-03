@@ -26,7 +26,7 @@ At this event some issues we ran into:
 - As players slammed their fire hydrant and ladder props onto stations, magnetic sensors would become more touchy and prone to fail
 - one of the firetruck controller's joystick popped out of place
 - The inputs from the magnetic sensors at times would not communicate their position in space, so players were unable to use their joysticks to move.
-- The magnet to sensor positioning was too small
+- The magnet on the bottom of the sensors had too small of a radius, meaning players had to put the props exactly on the sensor to get a read 
 
 ## Lessons Learned
 Due to APC being the experience's first official playtest, fully functioning, some lessons learned were:
