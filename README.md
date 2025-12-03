@@ -21,18 +21,19 @@ These controllers were used to interact with a projection-mapped cube for a fire
 6. Connect the controller via USB — it will appear as a keyboard device.
 
 
-## My Contributions to the Final Project 
-- Created wiring diagrams and hardware layout  
-- Programmed the Teensy logic handling magnetic sensors, joysticks, and button inputs
-- Tested and Iterated upon input keys, logic, and hardware used
-- Collaborated with game developers to match input requirements
-
 ## Changes Made during the Process
 - Hardware
     - During the concept phase, the game developer Thomas and the fabrication lead Emily and I were discussing the controller designs. We went through a hose controller with nozzle and movement, a hydrant controller with potentiometers, and then landed on a firetruck controller. I changed our hardware based on the needs for the game and the fabrication of the controllers, meaning we went from analog inputs (potentiometers and analog joystick) to digital inputs (arcade joystick and button).
  
 - Wire Management
     - During the concept phase, I was planning to use 2 teensy microcontrollers. One teensy per 2 firetruck controllers, for more spacial abilities and movement abilities. However, our budget and facilitators Professor Jessie Contour and Kyle Evans enforced that I use 1 teensy microcontroller. I used 8 conductor wire cable that insulated into one cord. This meant that I cut 8 pieces of 5 ft cable and soldered 32 wires, including grounds and powers. A skill I learned from needing so many wires, was I was able to create a powerbus and a groundbus on my perfboard.
+ 
+
+## My Contributions to the Final Project 
+- Created wiring diagrams and hardware layout  
+- Programmed the Teensy logic handling magnetic sensors, joysticks, and button inputs
+- Tested and Iterated upon input keys, logic, and hardware used
+- Collaborated with game developers to match input requirements
 
 
 ## Audio Pixel Collider Showcase 11.20.2025
