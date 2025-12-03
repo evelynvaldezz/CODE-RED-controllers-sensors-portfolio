@@ -12,6 +12,14 @@ The electronics I worked with include:
 
 These controllers were used to interact with a projection-mapped cube for a firefighting game, where players move magnetic props over sensors at corners of the cube in order to indicate where they are in the space, and then control their player using a joystick and button on each firetruck.
 
+## How to Use This Code
+1. Open the `.ino` file in the Arduino IDE.
+2. Select **Teensy** as the board type.
+3. Install the Keyboard and Bounce libraries if needed.
+4. Upload to the Teensy.
+5. Connect the controller via USB — it will appear as a keyboard device.
+
+
 ## My Contributions to the Final Project 
 - Assisted in creating wiring diagrams and hardware layout  
 - Programmed the Teensy logic handling magnetic sensors, joysticks, and button inputs
