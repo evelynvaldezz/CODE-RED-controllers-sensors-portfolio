@@ -37,7 +37,8 @@ Due to APC being the experience's first official playtest, fully functioning, so
 
 
 ## Future Plans
-see [Diagram Folder](diagram/) for visual plans
+see [Diagram Folder](diagram/) for visual plans.
+
 Based on these Lessons Learned, some plans going forward are to:
 - Resolder the magnetic sensors, adding the ability to switchout sensors easily
 - screwing in joysticks with tighter washers
