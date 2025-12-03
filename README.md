@@ -31,7 +31,7 @@ At this event some issues we ran into:
 ## Lessons Learned
 Due to APC being the experience's first official playtest, fully functioning, some lessons learned were:
 - Durability testing and iterating is a must for an interactive experience (magnetic sensors)
-- Durability tests for jerking joysticks and slamming buttons
+- Durability tests for yanking joysticks and slamming buttons
 - Soldering is good, but not the best to switch out touchy sensors
 - communicate orientation of props (label front and back) is essential for proper reads from sensors (this is something I did at the event, due to watching players struggle with orientation, added tape and labeled with permanent marker)
 
