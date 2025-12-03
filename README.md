@@ -14,10 +14,11 @@ These controllers were used to interact with a projection-mapped cube for a fire
 
 ## How to Use This Code
 1. Open the `.ino` file in the Arduino IDE.
-2. Select **Teensy** as the board type.
-3. Install the Keyboard and Bounce libraries if needed.
-4. Upload to the Teensy.
-5. Connect the controller via USB — it will appear as a keyboard device.
+2. Select Tools and under tools Select **Teensy 4.0** as the board type.
+3. Select Tools and under USB type: select Keyboard.
+4. Install the Keyboard and Bounce libraries if needed.
+5. Upload to the Teensy.
+6. Connect the controller via USB — it will appear as a keyboard device.
 
 
 ## My Contributions to the Final Project 
