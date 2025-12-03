@@ -46,6 +46,7 @@ At this event some issues we ran into:
 - The magnet on the bottom of the sensors had too small of a radius, meaning players had to put the props exactly on the sensor to get a read 
 
 ## Lessons Learned
+
 Due to APC being the experience's first official playtest, fully functioning, some lessons learned were:
 - Durability testing and iterating is a must for an interactive experience (magnetic sensors)
 - Durability tests for yanking joysticks and slamming buttons
@@ -72,6 +73,26 @@ Based on these Lessons Learned, some plans going forward are to:
 
 - **Group Game on itch.io**  
   [Play CODE RED on itch.io](https://ty-700.itch.io/code-red)
+
+
+  ## Final Installation and Process Photos
+
+  ### 🎮 Installed Controllers (On-Site)
+![Controller Installed - Station View](images/placeholder_install_station.jpg)
+![Full Setup View](images/placeholder_install_fullsetup.jpg)
+
+### Electrical Wiring
+![Wire/Cable Diagram](diagram/placeholder_mainDiagram.png)
+![Sensor/Buttons Diagram](diagram/placeholder_sensorsDiagram.png)
+
+### Controller Layout Diagrams
+![Internal Layout Overview](diagram/placeholder_layoutOverview.png)
+
+### Soldering and Wiring Photos
+![Soldered Photos](hardware/placeholder_solder_joints.jpg)
+![Internal Wiring Close-Up](hardware/placeholder_wiring_closeup.jpg)
+![Cable Routing / Tidy Wiring](hardware/placeholder_cableRouting.jpg)
+
 
 
 
