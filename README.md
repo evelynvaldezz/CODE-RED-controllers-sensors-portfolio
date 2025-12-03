@@ -76,7 +76,7 @@ Based on these Lessons Learned, some plans going forward are to:
 
 
 ## Final Installation and Process Photos 
-    ### Installed Controllers (On-Site)
+ ### Installed Controllers (On-Site)
 ![Controller Installed - Station View](images/placeholder_install_station.jpg)
 ![Full Setup View](images/placeholder_install_fullsetup.jpg)
 
