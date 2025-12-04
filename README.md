@@ -75,23 +75,6 @@ Based on these Lessons Learned, some plans going forward are to:
   [Play CODE RED on itch.io](https://ty-700.itch.io/code-red)
 
 
-## Final Installation and Process Photos 
- ### Installed Controllers (On-Site)
-![Controller Installed - Station View](images/placeholder_install_station.jpg)
-![Full Setup View](images/placeholder_install_fullsetup.jpg)
-
-### Electrical Wiring
-![Wire/Cable Diagram](diagram/placeholder_mainDiagram.png)
-![Sensor/Buttons Diagram](diagram/placeholder_sensorsDiagram.png)
-
-### Controller Layout Diagrams
-![Internal Layout Overview](diagram/placeholder_layoutOverview.png)
-
-### Soldering and Wiring Photos
-![Soldered Photos](hardware/placeholder_solder_joints.jpg)
-![Internal Wiring Close-Up](hardware/placeholder_wiring_closeup.jpg)
-![Cable Routing / Tidy Wiring](hardware/placeholder_cableRouting.jpg)
-
 
 
 
