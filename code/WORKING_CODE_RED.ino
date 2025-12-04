@@ -83,7 +83,7 @@ void setup() {
 
 
 
-  // Serial.begin(9600);        //bod rate
+ 
   Keyboard.begin();
 }
 
@@ -94,7 +94,7 @@ void loop() {
   hydrant2startButton.update();
   ladder2startButton.update();
 
-  joyLeft1.update();  //read the button and store the value
+  joyLeft1.update();  
   joyRight1.update();
   force1Button.update();
 
@@ -123,15 +123,13 @@ void loop() {
 
 
   //JOYSTICK 1//
-  if (joyLeft1.fallingEdge()) {  //it is pulled up until the button is pressed.. when pressed the edge falls
+  if (joyLeft1.fallingEdge()) {  
     Keyboard.press(KEY_LEFT);      // or Keyboard.press(' ');
-    //Serial.print("myButton ");
-    //Serial.println(1);
+    
   }
-  if (joyLeft1.risingEdge()) {  //when you let go it is pulled back up, making it a rising edge
+  if (joyLeft1.risingEdge()) {  
     Keyboard.release(KEY_LEFT);
-    //Serial.print("myButton ");
-    //Serial.println(0);
+   
   }
 
 
@@ -144,10 +142,10 @@ void loop() {
   }
 
   //FORCE 1 BUTTON
-  if (force1Button.fallingEdge()) {  //it is pulled up until the button is pressed.. when pressed the edge falls
+  if (force1Button.fallingEdge()) {  
     Keyboard.press(KEY_UP);
   }
-  if (force1Button.risingEdge()) {  //when you let go it is pulled back up, making it a rising edge
+  if (force1Button.risingEdge()) {  
     Keyboard.release(KEY_UP);
   }
 
@@ -164,10 +162,10 @@ void loop() {
   }
 
   //JOYSTICK 2
-  if (joyLeft2.fallingEdge()) {  //it is pulled up until the button is pressed.. when pressed the edge falls
+  if (joyLeft2.fallingEdge()) {  
     Keyboard.press(KEY_A);
   }
-  if (joyLeft2.risingEdge()) {  //when you let go it is pulled back up, making it a rising edge
+  if (joyLeft2.risingEdge()) {  
     Keyboard.release(KEY_A);
   }
 
@@ -181,10 +179,10 @@ void loop() {
   }
 
   //FORCE 2 BUTTON
-  if (force2Button.fallingEdge()) {  //it is pulled up until the button is pressed.. when pressed the edge falls
+  if (force2Button.fallingEdge()) {  
     Keyboard.press(KEY_W);
   }
-  if (force2Button.risingEdge()) {  //when you let go it is pulled back up, making it a rising edge
+  if (force2Button.risingEdge()) {  
     Keyboard.release(KEY_W);
   }
 
@@ -197,16 +195,13 @@ void loop() {
   if (hydrant2startButton.risingEdge()) {
     Keyboard.release(KEY_E);
   }
-  // //JOYSTICK 3//
+  
+  //JOYSTICK 3//
   if (joyLeft3.fallingEdge()) {  //it is pulled up until the button is pressed.. when pressed the edge falls
-    Keyboard.press(KEY_LEFT);      // or Keyboard.press(' ');
-    //Serial.print("myButton ");
-    //Serial.println(1);
+    Keyboard.press(KEY_LEFT);      // or Keyboard.press(' '); 
   }
-  if (joyLeft3.risingEdge()) {  //when you let go it is pulled back up, making it a rising edge
-    Keyboard.release(KEY_LEFT);
-    //   //Serial.print("myButton ");
-    //   //Serial.println(0);
+  if (joyLeft3.risingEdge()) {  
+    Keyboard.release(KEY_LEFT);  
   }
 
 
@@ -219,16 +214,16 @@ void loop() {
   }
 
   //FORCE 3 BUTTON
-  if (force3Button.fallingEdge()) {  //it is pulled up until the button is pressed.. when pressed the edge falls
+  if (force3Button.fallingEdge()) {  
     Keyboard.press(KEY_UP);
   }
-  if (force3Button.risingEdge()) {  //when you let go it is pulled back up, making it a rising edge
+  if (force3Button.risingEdge()) {  
     Keyboard.release(KEY_UP);
   }
 
 
 
-  // //STATION 4
+ //STATION 4
 
   if (ladder2startButton.fallingEdge()) {
     Keyboard.press(KEY_T);
@@ -237,15 +232,13 @@ void loop() {
     Keyboard.release(KEY_T);
   }
   //JOYSTICK 4//
-  if (joyLeft4.fallingEdge()) {  //it is pulled up until the button is pressed.. when pressed the edge falls
-    Keyboard.press(KEY_A);      // or Keyboard.press(' ');
-    //Serial.print("myButton ");
-    //Serial.println(1);
+  if (joyLeft4.fallingEdge()) {  
+    Keyboard.press(KEY_A);      
+   
   }
-  if (joyLeft4.risingEdge()) {  //when you let go it is pulled back up, making it a rising edge
+  if (joyLeft4.risingEdge()) {  
     Keyboard.release(KEY_A);
-    //Serial.print("myButton ");
-    //Serial.println(0);
+   
   }
 
 
@@ -258,10 +251,10 @@ void loop() {
   }
 
   //FORCE 4 BUTTON
-  if (force4Button.fallingEdge()) {  //it is pulled up until the button is pressed.. when pressed the edge falls
+  if (force4Button.fallingEdge()) {  
     Keyboard.press(KEY_W);
   }
-  if (force4Button.risingEdge()) {  //when you let go it is pulled back up, making it a rising edge
+  if (force4Button.risingEdge()) {  
     Keyboard.release(KEY_W);
   }
 }
