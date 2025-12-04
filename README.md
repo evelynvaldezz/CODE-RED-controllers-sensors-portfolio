@@ -23,7 +23,7 @@ These controllers were used to interact with a projection-mapped cube for a fire
 
 ## Changes Made during the Process
 - Hardware
-    - During the concept phase, the game developer Thomas and the fabrication lead Emily and I were discussing the controller designs. We went through a hose controller with nozzle and movement, a hydrant controller with potentiometers, and then landed on a firetruck controller. I changed our hardware based on the needs for the game and the fabrication of the controllers, meaning we went from analog inputs (potentiometers and analog joystick) to digital inputs (arcade joystick and button).
+    - During the concept phase, the game developer Thomas and the fabrication lead Emily and I were discussing the controller designs. We went through a hose controller with nozzle and movement, a hydrant controller with potentiometers, and then landed on a firetruck controller. I changed our hardware based on the needs for the game and the fabrication of the controllers, meaning we went from analog inputs (potentiometers and analog joystick) to digital inputs (arcade joystick and button). This added to the arcade retro style of the game and helped with the fast turnaround: digital inputs are more straightfoward than analog inputs.
  
 - Wire Management
     - During the concept phase, I was planning to use 2 teensy microcontrollers. One teensy per 2 firetruck controllers, for more spacial abilities and movement abilities. However, our budget and facilitators Professor Jessie Contour and Kyle Evans enforced that I use 1 teensy microcontroller. I used 8 conductor wire cable that insulated into one cord. This meant that I cut 8 pieces of 5 ft cable and soldered 32 wires, including grounds and powers. A skill I learned from needing so many wires, was I was able to create a powerbus and a groundbus on my perfboard.
@@ -52,6 +52,8 @@ Due to APC being the experience's first official playtest, fully functioning, so
 - Durability tests for yanking joysticks and slamming buttons
 - Soldering is good, but not the best to switch out touchy sensors
 - communicate orientation of props (label front and back) is essential for proper reads from sensors (this is something I did at the event, due to watching players struggle with orientation, added tape and labeled with permanent marker)
+
+I am most proud of no bugs, and proud of myself for soldering for the first time ever and everything holding well for the most part. If I had more time, I would be neater with the wiring and soldering on the teensy and perfboard because it got messy very fast. However, I was soldering 2 days before the event, and did 32 + wires. I would also proritize testing the durability of everything. 
 
 
 ## Future Plans
