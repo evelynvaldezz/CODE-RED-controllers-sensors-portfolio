@@ -80,11 +80,11 @@ Based on these Lessons Learned, some plans going forward are to:
 - **Group Project Google Drive**  
   https://drive.google.com/drive/u/1/folders/10Mozu4MKlOPXDo81eWHoMzp235B-tDY-
 
-- **My Prop Fabrication Portfolio (ArtStation)**  
+- **Building the Custom Controllers, Props and Stations (My ArtStation)**  
   [View on ArtStation](https://www.artstation.com/artwork/EznP52)
 
 - **Group Game on itch.io**  
-  [Play CODE RED on itch.io](https://ty-700.itch.io/code-red)
+  [CODE RED on itch.io](https://ty-700.itch.io/code-red)
 
 
 
