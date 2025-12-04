@@ -63,7 +63,7 @@ void setup() {
 
 
 
-  pinMode(1, INPUT_PULLUP);  //joystick 1 left           //high state until pressed then bring down to ground
+  pinMode(1, INPUT_PULLUP);  //joystick 1 left           
   pinMode(2, INPUT_PULLUP);  //joystick 1 right
   pinMode(3, INPUT_PULLUP);  //force 1 button
 
@@ -71,7 +71,7 @@ void setup() {
   pinMode(5, INPUT_PULLUP);  //joystick 2 right
   pinMode(6, INPUT_PULLUP);  //force 2 button
 
-  pinMode(7, INPUT_PULLUP);  //joystick 3 left           //high state until pressed then bring down to ground
+  pinMode(7, INPUT_PULLUP);  //joystick 3 left           
   pinMode(8, INPUT_PULLUP);  //joystick 3 right
   pinMode(9, INPUT_PULLUP);  //force 3 button
 
@@ -124,7 +124,7 @@ void loop() {
 
   //JOYSTICK 1//
   if (joyLeft1.fallingEdge()) {  
-    Keyboard.press(KEY_LEFT);      // or Keyboard.press(' ');
+    Keyboard.press(KEY_LEFT);      
     
   }
   if (joyLeft1.risingEdge()) {  
@@ -197,8 +197,8 @@ void loop() {
   }
   
   //JOYSTICK 3//
-  if (joyLeft3.fallingEdge()) {  //it is pulled up until the button is pressed.. when pressed the edge falls
-    Keyboard.press(KEY_LEFT);      // or Keyboard.press(' '); 
+  if (joyLeft3.fallingEdge()) {  
+    Keyboard.press(KEY_LEFT);      
   }
   if (joyLeft3.risingEdge()) {  
     Keyboard.release(KEY_LEFT);  
