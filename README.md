@@ -62,6 +62,18 @@ Based on these Lessons Learned, some plans going forward are to:
 - screwing in joysticks with tighter washers
 - Indenting the material of the stations, so that magnetic sensors are at a slightly lower elevation than platform, making the hydrant and ladder prop safe to slam down
 
+## Folders
+
+[Images Folder of Custom Controllers, Stations and Props](images/).
+
+[Hardware, Wiring, and Soldering](hardware/).
+
+[Diagrams](diagram/)
+
+[Early Concept Sketches](concept/).
+
+
+
 
 ## External Links
 
@@ -75,10 +87,7 @@ Based on these Lessons Learned, some plans going forward are to:
   [Play CODE RED on itch.io](https://ty-700.itch.io/code-red)
 
 
-For images of assembled controllers and stations, see [Images Folder](images/).
-For hardware and soldering images, see [Hardware Folder](hardware/).
-For [Diagrams](diagram/)
-For concept sketches, early on in the process see [Concept](concept/).
+
 
 
 
