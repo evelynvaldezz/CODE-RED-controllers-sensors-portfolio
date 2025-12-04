@@ -12,7 +12,7 @@ The electronics I worked with include:
 
 These controllers were used to interact with a projection-mapped cube for a firefighting game, where players move magnetic props over sensors at corners of the cube in order to indicate where they are in the space, and then control their player using a joystick and button on each firetruck.
 
-## How to Use This Code
+## How to Use This [Code](code/).
 1. Open the `.ino` file in the Arduino IDE.
 2. Select Tools and under tools Select **Teensy 4.0** as the board type.
 3. Select Tools and under USB type: select Keyboard.
@@ -75,6 +75,10 @@ Based on these Lessons Learned, some plans going forward are to:
   [Play CODE RED on itch.io](https://ty-700.itch.io/code-red)
 
 
+For images of assembled controllers and stations, see [Images Folder](images/).
+For hardware and soldering images, see [Hardware Folder](hardware/).
+For [Diagrams](diagram/)
+For concept sketches, early on in the process see [Concept](concept/).
 
 
 
